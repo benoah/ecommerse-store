@@ -1,0 +1,16 @@
+.nav-wrapper{
+  background-color: #ffff
+  ;
+}
+
+.brand-logo-image{
+  height: 160px;
+}
+.carousel{
+  margin-top: 80px;
+}
+
+.card img {
+  height: 320px;
+  object-fit: cover
+}

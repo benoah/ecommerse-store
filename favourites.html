@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="icon" href="data:;base64,=" />
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo"><img class="brand-logo-image" src="./logo/logo.jpg" /></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class=" black-text material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a class="black-text" href="index.html" class="active">Home</a></li>
+            <li><a class="black-text" href="favourites.html">Favourites</a></li>
+            <li><a href="" class="btn white grey-text">Login</a></li>
+          </ul>
+        </div>
+      </nav>
+      <ul class="sidenav" id="mobile-demo">
+        <li><a class="black-text" href="index.html" class="active">Home</a></li>
+        <li><a class="black-text" href="favourites.html">Favourites</a></li>
+        <li><a href="" class="btn white grey-text">Login</a></li>
+      </ul>
+      <div class="row">
+        <div class="product-container col"></div>
+      </div>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".sidenav").sidenav();
+        });
+    </script>
+    <script src="js/favourites.js" type="module"></script>
+</body>
+
+</html>
+
+
+
